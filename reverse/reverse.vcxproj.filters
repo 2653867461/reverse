@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="encrypt">
+      <UniqueIdentifier>{d5eb5cb1-798e-4bcc-9816-111817c41f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="anti-debug">
+      <UniqueIdentifier>{3ebe1f3a-1138-4a4e-8dc9-7c5f19f57bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{55801bd8-481c-4ad8-9b64-1c577eb1aa49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reverse">
+      <UniqueIdentifier>{210a7314-e097-473d-9369-a480686f70c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiDebug.h">
+      <Filter>anti-debug</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt.h">
+      <Filter>encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="anti-debug.cpp">
+      <Filter>anti-debug</Filter>
+    </ClCompile>
+    <ClCompile Include="encrypt.cpp">
+      <Filter>encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="pe.cpp">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse.cpp">
+      <Filter>reverse</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
